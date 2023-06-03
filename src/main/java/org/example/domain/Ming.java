@@ -8,9 +8,13 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Zhaoyan {
+public class Ming {
     @TableId("id")
     private Integer id;
     private String name;
-    private String value;
+    private String nation;
+    private String birthyear;
+    private String diedyear;
+    private String diedage;
+    private String story;
 }
